@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../fonts/source-sans-pro/SourceSansPro-Regular.otf) format(truetype);
+}
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    background-color: #B1A7A6;
+}
+
+body {
+    padding: 0 2rem;
+}
+
+h1 {
+    margin: 1rem 0;
+}
+
+.codecont {
+    background-color: #161A1D;
+    color: #E5383B;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    min-width: fit-content;
+}
