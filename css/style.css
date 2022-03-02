@@ -19,8 +19,8 @@ body {
     padding: 0 2rem;
 }
 
-h1 {
-    margin: 1rem 0;
+p, h1 {
+    margin: 1rem;
 }
 
 .codecont {
@@ -29,5 +29,13 @@ h1 {
     margin: 1rem;
     padding: 1rem;
     border-radius: 1rem;
+    border: 0.1rem solid;
     min-width: fit-content;
+}
+
+.vhcenter { 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
