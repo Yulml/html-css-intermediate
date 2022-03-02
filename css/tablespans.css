@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../fonts/source-sans-pro/SourceSansPro-Regular.otf) format(truetype);
+}
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    background-color: #B1A7A6;
+}
+
+body {
+    padding: 0 2rem;
+}
+
+p, h1 {
+    margin: 1rem;
+}
+
+.timetable {
+    background-color: #161A1D;
+    text-align: center;
+    color: #E5383B;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.1rem solid;
+    min-width: fit-content;
+}
+
+.timetable:first-of-type th {
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 0.5rem;
+}
+
+.vhcenter { 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
