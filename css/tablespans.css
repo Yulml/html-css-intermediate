@@ -11,33 +11,57 @@
 
 :root {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.3rem;
-    background-color: #B1A7A6;
+    font-size: 0.785rem;
+    background-color: var(--gray-500);
 }
 
 body {
     padding: 0 2rem;
 }
 
-p, h1 {
-    margin: 1rem;
+h1 {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 3rem;
+    color: var(--dark);
+}
+
+.empty {
+    background-color: var(--purple);
+}
+
+.tabletitle {
+    background-color: var(--red);
+    color: var(--dark-gray);
+}
+
+.rest {
+    background-color: var(--dark-gray);
+    color: var(--dark);
+}
+
+.doubletrouble {
+    background-color: var(--blood-red);
+    color: var(--dark-gray);
 }
 
 .timetable {
-    background-color: #161A1D;
+    font-size: 1.5rem;
+    background-color: var(--dark);
     text-align: center;
-    color: #E5383B;
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 1rem;
-    border: 0.1rem solid;
+    color: var(--red);
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    border-collapse: collapse;
+    width: 80%;
+    height: 60%;
     min-width: fit-content;
+    min-height: fit-content;
 }
 
-.timetable:first-of-type th {
-    font-weight: bold;
-    text-transform: capitalize;
-    padding: 0.5rem;
+th:first-child {
+    border: 0;
 }
 
 .vhcenter { 
