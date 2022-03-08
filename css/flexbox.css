@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../fonts/source-sans-pro/SourceSansPro-Regular.otf) format(truetype);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+:root {
+	background: rgb(22, 22, 22);
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    width: 80%;
+    min-height: 100vh;
+    margin:  2em auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 30%;
+    border: 2px solid crimson;
+    border-radius: 0.3em;
+    background-color: rgb(36, 30, 30);
+    margin: 1vw;
+}
+
+.card img {
+    border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+    width: 100%;
+    height: auto;
+}
+
+.linkbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.linkbox a {
+    border: 5px solid crimson;
+    padding: 1em;
+    margin: 1em 0em 1em 1em;
+    color: crimson;
+    display: flex;
+    min-width: fit-content;
+    text-decoration: none;
+}
+.linkbox i {
+    margin-right: 0.5em;
+}
+
+/* Fuentes */
+
+.textbox h2 {
+    color: white;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.textbox h3 {
+    color: gray;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+.textbox p {
+    color: white;
+    margin: 1rem;
+    text-align: justify;
+    line-height: 1.6em;
+}
+
+/* Breakpoints
+    
+    @media (max-width: 1920px) {
+        .card {
+            width: 25%;
+        }
+    }
+
+    @media (max-width: 1280px) {
+        .card {
+            width: 15%;
+        }
+    } */

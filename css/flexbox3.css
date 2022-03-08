@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../fonts/source-sans-pro/SourceSansPro-Regular.otf) format(truetype);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+:root {
+	background-color: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    width: 80%;
+    min-height: 100vh;
+    margin: 1em 2em;
+}
+
+header {
+    margin: 2em 2em 1em 2em;
+}
+
+header span {
+    font-style: italic;
+    display: block;
+    margin-top: 1em;
+    color: gray;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 12%;
+    background-color: white;
+    margin: 1vw;
+    padding: 2vw;
+    border-radius: 0.2em;
+    box-shadow: 0em 0em 0.2em 0em rgba(0,0,0,0.1);
+}
+
+.card:first-of-type {
+    margin-left: 0;
+}
+
+
+.card picture {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.textbox span {
+    color: gray;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.rating {
+    margin: 2em 0 1em 0;
+    color: green;
+}
+
+/* Fuentes */
+
+.textbox h2 {
+    font-weight: bold;
+    margin: 0.7em 0 0.7em 0;
+}
+
+/* Breakpoints
+    
+    @media (max-width: 1920px) {
+        .card {
+            width: 25%;
+        }
+    }
+
+    @media (max-width: 1280px) {
+        .card {
+            width: 15%;
+        }
+    } */

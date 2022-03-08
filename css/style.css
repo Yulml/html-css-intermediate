@@ -4,15 +4,27 @@
 }
 
 * {
+    box-sizing: border-box;
     border: 0;
     margin: 0;
     padding: 0;
 }
 
 :root {
+    box-sizing: border-box;
+
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3rem;
     background-color: #B1A7A6;
+}
+
+*,
+    ::before,
+    ::after {
+    box-sizing: inherit;
+    }
+
+:root {
 }
 
 body {

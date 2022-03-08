@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../fonts/source-sans-pro/SourceSansPro-Regular.otf) format(truetype);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+:root {
+	background-color: lightgray;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    width: 80%;
+    min-height: 100vh;
+    margin:  2em auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 30%;
+    background-color: white;
+    margin: 0.7vw 0 0 0;
+    padding: 1vw;
+}
+
+.card picture {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    width: 70%;
+    height: auto;
+    padding-bottom: 2vw;
+}
+
+.buybox {
+    display: flex;
+}
+
+.buybox button {
+    margin-left: auto;
+    background-color: blue;
+    color: white;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.buybox span {
+    color: green;
+    font-size: 0.8em;
+    line-height: 2em;
+}
+
+.buybox h3 {
+    font-weight: normal;
+}
+
+.spacer {
+    border-bottom: 1px lightgray solid;
+    margin: 1.2em -1.2em;
+}
+
+.textbox {
+    display: flex;
+}
+
+.rating {
+    margin-left: auto;
+    color: orangered;
+}
+
+/* Fuentes */
+
+.textbox h2 {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+/* Breakpoints
+    
+    @media (max-width: 1920px) {
+        .card {
+            width: 25%;
+        }
+    }
+
+    @media (max-width: 1280px) {
+        .card {
+            width: 15%;
+        }
+    } */
